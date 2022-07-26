@@ -1,2 +1,2 @@
-# EDVACAI
-A Model for Early Detection of Vulnerabilities in Android Code with AI
+# ACVED
+An AI based Model for Android Code Vulnerability Early Detection
