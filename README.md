@@ -1,15 +1,12 @@
 # Android Vulnerability Early Detection (ACVED)
 
-Android applications are rapidly published and updated due to continuous and increasing user demands, and rapidly changing user needs. 
-Due to the rushed development cycles, you may focus more on the applications' functionalities than the security and source code vulnerabilities. 
-This may due to the lack of automated mechanisms to assist app developers in mitigating the vulnerabilities. 
+Due to the constant and growing demands of users, as well as their ever-changing needs, Android applications are being rapidly released and updated. However, in the rush to develop these apps, the focus may be more on functionality rather than security and identifying vulnerabilities in the source code. This is partly because there are not enough automated mechanisms available to assist app developers in mitigating these vulnerabilities.
 
-This AI-powered Android Code Vulnerability Early Detection (ACVED) plugin can be integrated with the Android Studio to support you for real-time source code vulnerability mitigation. 
-The plugin can provide the vulnerability status of a given source code line, which you are currently working on. 
-A well-trained, highly accurate and efficient ensemble learning model runs in the backend of ACVED. It can detect source code vulnerabilities, and their CWE categories with 95% accuracy. 
-Explainable AI techniques are also employed to provide the source code vulnerability prediction probabilities of each word. 
-The model also receives regular updates with new training data from the LVDAndro dataset. 
-Therefore, novel vulnerabilities can also be detected using the ACVED plugin.
+To address this issue, an AI-powered plugin called Android Code Vulnerability Early Detection (ACVED) can be integrated with Android Studio to provide real-time support for mitigating source code vulnerabilities. As you work on a specific source code line, the plugin can provide the vulnerability status for that line.
+
+ACVED has a highly accurate and efficient ensemble learning model running in the backend, which can detect source code vulnerabilities and their CWE categories with a 95% accuracy rate. Additionally, explainable AI techniques are employed to provide source code vulnerability prediction probabilities for each word.
+
+The model is regularly updated with new training data from the LVDAndro dataset, which allows for the detection of novel vulnerabilities using the ACVED plugin.
 
 Use ACVED User Guide for all the necessary instructions related to the ACVED plugin installation and usage.
 
