@@ -1,4 +1,4 @@
-# Android Vulnerability Early Detection (ACVED)
+# Android Code Vulnerabilities Early Detection (ACVED)
 
 Due to the constant and growing demands of users, as well as their ever-changing needs, Android applications are being rapidly released and updated. However, in the rush to develop these apps, the focus may be more on functionality rather than security and identifying vulnerabilities in the source code. This is partly because there are not enough automated mechanisms available to assist app developers in mitigating these vulnerabilities.
 
