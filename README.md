@@ -8,6 +8,8 @@ ACVED has a highly accurate and efficient ensemble learning model running in the
 
 The model is regularly updated with new training data from the LVDAndro dataset, which allows for the detection of novel vulnerabilities using the ACVED plugin.
 
+If you are using this plugin or model in your research work, please cite as: _**Senanayake, J., Kalutarage, H., Al-Kadri, M.O., Petrovski, A., Piras, L. (2023). Android Code Vulnerabilities Early Detection Using AI-Powered ACVED Plugin. In: Atluri, V., Ferrara, A.L. (eds) Data and Applications Security and Privacy XXXVII. DBSec 2023. Lecture Notes in Computer Science, vol 13942. Springer, Cham. [https://doi.org/10.1007/978-3-031-37586-6_20](https://doi.org/10.1007/978-3-031-37586-6_20)**_
+
 Use ACVED User Guide for all the necessary instructions related to the ACVED plugin installation and usage.
 
 
