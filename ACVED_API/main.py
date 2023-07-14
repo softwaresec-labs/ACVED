@@ -10,6 +10,7 @@ from werkzeug.serving import run_simple
 
 from sklearn.pipeline import make_pipeline
 from lime.lime_text import LimeTextExplainer
+from waitress import serve
 
 import re
 
@@ -195,7 +196,8 @@ def start_api():
                         'cwe_reference': str(CWE_Links[str(vulnerable_class)])
                         })
 
-    run_simple('localhost', 5000, app)
+    print("ACVED API started: http://localhost:5000/")
+    serve(app, host="localhost", port=5000)
 
 
 if __name__ == '__main__':
