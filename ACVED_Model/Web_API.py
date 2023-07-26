@@ -43,7 +43,7 @@ def preprocess_comments_and_strings(code_line):
     return processed_code_line
 
 
-with open('binary_model_.pickle', 'rb') as bin_model_file:
+with open('binary_model.pickle', 'rb') as bin_model_file:
     binary_vectorizer, binary_classifier, binary_xgb_model = pickle.load(bin_model_file)
 
 with open('multiclass_model.pickle', 'rb') as multi_model_file:
