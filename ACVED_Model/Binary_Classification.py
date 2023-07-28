@@ -6,7 +6,7 @@ from sklearn.feature_extraction.text import CountVectorizer
 import pickle
 import math
 
-vulnerability_df = pd.read_pickle("D:\\PhD\\Model_Building\\Stage_6_ML_Model_Training\\Version_3.0\\proccessed_dataset_for_analysis.pickle")
+vulnerability_df = pd.read_pickle("proccessed_dataset_for_analysis.pickle")
 
 print(vulnerability_df.head())
 

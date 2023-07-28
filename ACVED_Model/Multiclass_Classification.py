@@ -5,7 +5,7 @@ from xgboost import XGBClassifier
 from sklearn.feature_extraction.text import CountVectorizer
 import pickle
 
-vulnerability_df = pd.read_pickle("D:\\PhD\\Model_Building\\Stage_6_ML_Model_Training\\Version_3.0\\proccessed_dataset_for_analysis.pickle")
+vulnerability_df = pd.read_pickle("proccessed_dataset_for_analysis.pickle")
 
 vulnerability_df = vulnerability_df.loc[vulnerability_df['Vulnerability_status'] == 1]
 vulnerability_df = vulnerability_df[['processed_code','CWE_ID']]
